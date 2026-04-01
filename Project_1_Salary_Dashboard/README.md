@@ -1,8 +1,4 @@
 
-### Quick Summary
-
-This repository currently includes 2 Excel Projects I made to showcase some of my Data Analytics skills. Files for the finished projects are included, but I will be doing a quick summary of each project here as well. 
-
 ## Project 1 - Salary Dashboard
 
 <img width="843" height="415" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/100fe331-cf46-4a68-8640-ae4f79842720" />
