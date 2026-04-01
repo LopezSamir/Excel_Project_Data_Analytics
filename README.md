@@ -147,6 +147,35 @@ The median salary for international data jobs is less than the median salary for
 
 The top skills of data professionals changes depending on which job title and country we are looking at. Some standouts include SQL, Excel, Tableau, and Power BI. My project file allows viewers to change the job title and country that they are being shown so they can further understand what skills are needed for which job in their country.
 
+## 4. What is the pay for the top 10 skills?
+
+### Skill - Advanced Charts (Pivot Chart)
+#### PivotChart
+* Created combo PivotChart to plot median salary and skill likelihood (%) from my PivotTable.
+    * Primary Axis: Median Salary (as a Clustered Column)
+    * Secondary Axis: SKill Likelihood (as a Line with Markers)
+* To customize the chart, I added a title axis title, removed the line of skil likelihood, and changed the markers to diamonds
+
+## Analysis
+
+<img width="514" height="264" alt="Skill likelihood graph" src="https://github.com/user-attachments/assets/4548413a-7ddd-41af-a952-5b393fe494f3" />
+
+### Insights
+
+* Higher median salaries are associated with skills like Python, Oracle, and SQL, suggesting their critical role in high-paying tech jobs.
+* Skills like PowerPoint and Word have the lowest median salaries and likelihood, indicating less specialization and demand in high-salary sectors.
+
+### Answer
+
+The pay for the top 10 skills is shown in the combo PivotChart in the project file. Skills like Python and Oracle tend to pay more than less advanced skills like Word and PowerPoint
+
+### Conclusion
+
+As someone looking to become an analyst (Data/Business/etc.) I created this project in order to identify the top 10 skills required for these roles. Using a dataset from real-world job postings, I analyzed the salaries, locations, and required skills. This was done with the use of more advanced Excel features like Power Query, Power Pivot, Pivot Tables/Charts, and DAX. Finally, I am able to conclude that people with a larger skill set tend to be paid higher salaries than those with smaller skill sets.
+
+This project serves both as a way for me to showcase and practice my skills while also informing me of what I need to focus on moving forward.
+
+
 
 
 
