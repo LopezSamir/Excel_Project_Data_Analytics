@@ -41,7 +41,7 @@ I created this project to better understand the data job market while also showc
 
 The data skills analysis project was created to me visualize the most important skills I need to learn and improve in order to succeed in landing a data job. At the same time, it was created in order to show some of my skills in more advanced aspects of Excel listed in the skills section below.
 
-The data jobs dataset used in this project is from 2023. It has the same detailed information as the last project, such as job titles and salaries. Using this data, I wanted to answer four questions.
+The data jobs dataset used in this project has the same detailed information as the last project, such as job titles and salaries. Using this data, I wanted to answer four questions.
 
 ### Questions to Analyze
 
@@ -116,6 +116,37 @@ Having more data skills nets you a higher salary.
 ### Answer
 
 The median salary for international data jobs is less than the median salary for United States data jobs. The median salary for specific countries can be checked by opening up my project file and changing the country currently being displayed.
+
+## 3. What are the top skills of data professionals?
+
+### Skill - Power Pivot
+#### Power Pivot
+
+* I created a data model by integrating the data_jobs_all and data_jobs_skills tables into one model.
+* Since I had already cleaned the data using Power Query, Power Pivot created a relationship between the two tables
+
+#### Data Model
+
+* Created a relationship between the two tables using the job_id column.
+  <img width="606" height="467" alt="Data model relationship 1" src="https://github.com/user-attachments/assets/90043558-62c7-4084-a002-5200f6893852" />
+
+#### Power Pivot Menu
+* Used the Power Pivot menu to refine my data model so that is would be easier to create measures
+  <img width="670" height="260" alt="powerpivot refined menu" src="https://github.com/user-attachments/assets/b3c9bcd5-78b2-40ba-a900-2245c086f13c" />
+
+## Analysis
+
+<img width="1000" height="1000" alt="skill likelihood chart" src="https://github.com/user-attachments/assets/c6bdc4ab-782f-468b-b43c-7eee9c388368" />
+
+### Insights
+
+* SQL and Excel, followed by Python, are the top skills for data jobs. The likelihood of a job role requiring these skills is much higher than the other skills in the top 10.
+* Other important skills incude Tableau and Power BI, which are commonly used for data modeling
+
+### Answer
+
+The top skills of data professionals changes depending on which job title and country we are looking at. Some standouts include SQL, Excel, Tableau, and Power BI. My project file allows viewers to change the job title and country that they are being shown so they can further understand what skills are needed for which job in their country.
+
 
 
 
