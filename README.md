@@ -80,9 +80,42 @@ After that, I **loaded** both transformed queries into the workbook to begin my 
 
 ## Analysis
 
+<img width="451" height="298" alt="Better Pay Graph" src="https://github.com/user-attachments/assets/5d98c20a-3416-463e-a908-16636557abe7" />
+
 ### Insights
 
-* 
+* There is a positive correlation between the number of skills requested in job postings and the median salary.
+* Job roles that require less skills, such as Business Analyst, tend to offer lower salaries, which suggests that having more skills does result in a higher salary.
+
+### Answer
+
+Having more data skills nets you a higher salary.
+
+## 2. What is the salary for data jobs in different regions?
+
+### Skills - PivotTables and DAX
+#### Pivot Table
+* Created a PivotTable using the Data Model I created with Power Pivot
+* Moved the job_title_short to the rows area and salary_year_avg into the values area.
+* Added a new measure to calculate the median salary for United States jobs.
+  <img width="394" height="334" alt="Measure - Median Salary US" src="https://github.com/user-attachments/assets/217cb42d-60ec-4cc8-b59e-ba244a30f757" />
+
+#### DAX 
+* Used DAX to calculate the median yearly salary
+    * Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
+
+## Analysis
+
+<img width="584" height="241" alt="Median Salaries Table" src="https://github.com/user-attachments/assets/654589ab-ca18-412d-996f-c16f6c2e213e" />
+
+### Insights
+
+* Higher level job roles like Senior Data Engineer and Data Scientist have higher median salaries both in the United States and internationally, showing the global demand for high level data experts.
+* The United States tends to have higher salaries than other countries, most likely due to the higher demand for these roles in the United States than internationally.
+
+### Answer
+
+The median salary for international data jobs is less than the median salary for United States data jobs. The median salary for specific countries can be checked by opening up my project file and changing the country currently being displayed.
 
 
 
